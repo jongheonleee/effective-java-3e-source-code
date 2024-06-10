@@ -25,8 +25,11 @@
 
 > ### iv가 많고 객체 생성시에 매개변수가 많은 경우, 생성자나 정적 팩터리 메서드보단 빌더 패턴을 활용
 
-- 빌더 패턴 : "생성자에 매개변수가 많음 -> 생성자 오버로딩 많이함, 매개변수 순서 혼동" 해결하기 위해 내부적으로 빌더 클래스를 정의해서 해당 클래스를 생성할 때 사용 
-[ 사진 첨부 ]
+- 빌더 패턴 : "생성자에 매개변수가 많음 -> 생성자 오버로딩 많이함, 매개변수 순서 혼동" 해결하기 위해 내부적으로 빌더 클래스를 정의해서 해당 클래스를 생성할 때 사용
+
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/8dff7ae4-134d-40c5-ba3f-00a8c2292e35" width="500" height="500"/>
+
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/163df800-b0bc-490e-8828-9e1f0491d3e0" width="500" height="500"/>
 
 
 ### 📦 Item 03. private 생성자나 열거 타입으로 싱글턴임을 보증하라 
@@ -51,7 +54,7 @@
 - 예시에서 나온 맞춤법 검사기의 문제점은 "자주 변경될 부분이 구체적으로 작성되어 있음"
 - 예를 들어, 언어마다 맞춤법이 다르기 때문에 해당 부분을 쉽게 변경할 수 있게 구현해야함(전략 패턴)
 
-[ 사진 첨부 ]
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/826a7a71-0ef9-4632-9f13-7ece2133d472" width="500" height="500"/>
 
 
 
