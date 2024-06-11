@@ -66,8 +66,14 @@
 - 재사용 가능한 객체라는 의미는 공유 가능한 정보를 갖고 있냐도 포함임
 - 즉, 내부 iv가 불변이 아닌 경우, 또한 동기화 처리가 안되있는 경우는 멀티 쓰레드 환경에서 공유해서 사용할 경우 프로그램에 혼동을 야기할 수 잇음
 
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/a8a0f7a2-7aa3-46ee-9171-bb128b548d31" width="500" height="500"/>
 
-### 📦 Item 07. 다 쓴 객체 참조를 해제하라
+### 📦 Item 07. 다 쓴 객체 참조를 해제하라!
+
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/906d2be7-61a3-4cfc-bb66-3fb42725211a" width="500" height="500"/>
+
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/5cc3685f-8981-40e4-91ac-69bfa46564ca" width="500" height="500"/>
+
 
 - 가비지 컬렉터가 사용되지 않는 객체를 회수하지만, 100% 회수해주지 않음
 - 참조가 걸려있지만 사용하지 않는 경우에는 회수하지 못함
