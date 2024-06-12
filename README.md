@@ -1,6 +1,9 @@
 # 🚀 Effective Java
 
-## 📌 01. 객체 생성과 파괴 
+## 📌 02. 객체 생성과 파괴 
+
+<br>
+<br>
 
 ### 📦 Item 01. 생성자 대신 정적 팩터리 메서드를 고려하라
 
@@ -20,7 +23,8 @@
 - 단점
   - (1) 상속 불가능 - 생성자가 private 이기 때문
   - (2) 메서드 찾기 어려움 - 이름이 여러개임
-
+<br>
+  
 ### 📦 Item 02. 생성자에 매개변수가 많다면 빌더를 고려하라
 
 > ### iv가 많고 객체 생성시에 매개변수가 많은 경우, 생성자나 정적 팩터리 메서드보단 빌더 패턴을 활용
@@ -30,7 +34,7 @@
 <img src="https://github.com/jongheonleee/effective_java/assets/87258372/8dff7ae4-134d-40c5-ba3f-00a8c2292e35" width="500" height="500"/>
 
 <img src="https://github.com/jongheonleee/effective_java/assets/87258372/163df800-b0bc-490e-8828-9e1f0491d3e0" width="500" height="500"/>
-
+<br>
 
 ### 📦 Item 03. private 생성자나 열거 타입으로 싱글턴임을 보증하라 
 
@@ -38,13 +42,14 @@
 
 - 싱글톤 : 인스턴스 하나만 생성하고 공유
 - 구현 방법 - (1) public static final -> (2) 정적 팩터리 메서드 -> (3) 열거형
+<br>
 
 ### 📦 Item 04. 인스턴스화를 막으려거든 private 생성자를 사용하라 
 
 > ### private 생성자를 통해 인스턴스화 막음 
 
 - 굳이 이렇게 까지 할 필요는 없음, 물론 싱글톤같은 디자인 패턴에는 적용해야함
-
+<br>
 
 ### 📦 Item 05. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
 
@@ -55,7 +60,7 @@
 - 예를 들어, 언어마다 맞춤법이 다르기 때문에 해당 부분을 쉽게 변경할 수 있게 구현해야함(전략 패턴)
 
 <img src="https://github.com/jongheonleee/effective_java/assets/87258372/826a7a71-0ef9-4632-9f13-7ece2133d472" width="500" height="500"/>
-
+<br>
 
 
 ### 📦 Item 06. 불필요한 객체 생성을 피하라 
@@ -65,6 +70,7 @@
 - 멀티 쓰레드 환경도 고려해야함
 - 재사용 가능한 객체라는 의미는 공유 가능한 정보를 갖고 있냐도 포함임
 - 즉, 내부 iv가 불변이 아닌 경우, 또한 동기화 처리가 안되있는 경우는 멀티 쓰레드 환경에서 공유해서 사용할 경우 프로그램에 혼동을 야기할 수 잇음
+<br>
 
 <img src="https://github.com/jongheonleee/effective_java/assets/87258372/a8a0f7a2-7aa3-46ee-9171-bb128b548d31" width="500" height="500"/>
 
@@ -82,3 +88,8 @@
 
 
 
+### 📦 Item 08. finalizer와 cleaner 사용을 피하라
+<br>
+
+### 📦 Item 09. try-finally 보다는 try-with-resources를 사용하라
+<br>
