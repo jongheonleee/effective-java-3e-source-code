@@ -101,6 +101,8 @@
 
 ### 📦 Item 10. equals는 일반 규약을 지켜 재정의하라 
 
+<img src="https://github.com/jongheonleee/effective_java/assets/87258372/4703f7c8-5a32-492a-bc94-58be11616061" width="500" height="500"/>
+
 - equals()를 오버라이딩 하지 않아야하는 상황
   - (1) 각 인스턴스는 고유함 : 기본적으로 참조 비교가 정상임
   - (2) 인스턴스의 '논리적 동치성'을 검사할 일이 없음 : 값 비교(논리적 동치성)를 의미함
